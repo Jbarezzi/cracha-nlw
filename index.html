@@ -34,24 +34,31 @@
           </a>
 
           <p id="userBio">
-            Só um texto aleatório pra fazer o teste e não falar que fiquei com
-            preguiça de escrever
+            An instructor focused on helping pople start programming for web
           </p>
 
           <ul id="socialLinks">
             <li class="youtube">
               <a href="https://www.youtube.com/maykbrito" target="_blank">
-                <img src="images/youtube.svg" alt="Ícone Youtube" />
-              </a>
-            </li>
-            <li class="facebook">
-              <a href="https://www.facebook.com/maykbrito" target="_blank">
-                <img src="images/facebook.svg" alt="Ícone Facebook" />
+                <img
+                  id="youtube"
+                  src="images/youtube.svg"
+                  alt="Ícone Youtube"
+                />
               </a>
             </li>
             <li class="instagram">
               <a href="https://instagram.com/maykbrito" target="_blank">
                 <img src="images/instagram.svg" alt="Ícone Instagram" />
+              </a>
+            </li>
+            <li class="facebook">
+              <a href="https://www.facebook.com/maykbrito" target="_blank">
+                <img
+                  id="facebook"
+                  src="images/facebook.svg"
+                  alt="Ícone Facebook"
+                />
               </a>
             </li>
             <li class="twitter">
@@ -65,5 +72,14 @@
       </div>
     </main>
     <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector('.container'), {
+        reverse: true,
+        max: 3,
+        scale: 1.1,
+        speed: 500
+      })
+    </script>
   </body>
 </html>

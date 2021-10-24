@@ -90,6 +90,14 @@ ul {
     height: 100vh;
   }
 
+  li {
+    transition: all 0.2s;
+  }
+
+  li:hover {
+    transform: translateY(-0.25em);
+  }
+
   .container {
     display: flex;
     justify-content: center;
